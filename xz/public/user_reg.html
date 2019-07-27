@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #father{
+            border: 1px black solid;
+            width:300px;
+            height: 300px;
+            position: relative;
+        }
+        form{
+            position:absolute;
+            margin-top: 10px;
+            margin-left: auto;
+        }
+    </style>
+</head>
+<body>
+    <div id='father'>
+            <form method="post" action="/user/reg" >
+                <h2>用户注册</h2>
+                用户：<br>
+               <input type="text" name='uname'><br>
+               密码:<br>
+               <input type="text" name='upwd'><br>
+               邮箱：<br>
+               <input type="text" name='email'><br>
+               电话：<br>
+              <input type="text" name='phone'><br>
+              <input type="submit" >
+            </form>
+    </div>
+    
+</body>
+</html>
